@@ -1,0 +1,42 @@
+.client-supplier-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.client-supplier-container div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 200px;
+}
+
+.client-supplier-container h6 {
+  white-space: nowrap;
+}
+
+.client-supplier-container select {
+  width: 100%;
+}
+
+.add-product-form {
+  padding-block: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+select {
+  align-self: end;
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.add-product-form select {
+  align-self: end;
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
